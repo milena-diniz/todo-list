@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icons8-Windows-8-Business-Todo-List.ico" >
+    <title >to-do list</title>
+</head>
+<body>
+    <header>
+        <h1>to-do list</h1>
+    </header>
+    <div class="container">
+        <input placeholder="Escreva a tarefa..." id="texto" type="text">
+        <div class="botoes">
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="excluirTudo()">Excluir tudo</button>
+        </div>
+    </div>
+    <ul id="lista">
+        <li>
+            <input type="checkbox">
+            <label>Tarefa de referencia</label>
+            <button>X</button>
+        </li>
+   </ul>
+</body>
+</html>

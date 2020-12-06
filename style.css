@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+div.container {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+    
+}
+div.container input {
+    border: 0;
+    padding: 5px;
+    padding-left: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+div.container input:focus {
+    outline-width: 0;
+}
+div.container div.botoes {
+    float: right;
+}
+
+div.container div.botoes button { 
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 110px;
+    margin-right: 10px;
+}
+
+
+
+ul#lista {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+ul#lista li {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: white;
+}
+ul#lista li input{
+    margin: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ul#lista li label {
+    font-size: 13px;
+}
+ul#lista li button {
+    right: 10px;
+    position: absolute;
+    padding: 0;
+    border: 0;
+    background: none;
+    width: 13px;
+    height: 13px;
+    font-size: 10px;
+    text-align: center;
+    color: #aaa;
+    cursor: pointer;
+}
+ul#lista li button:hover {
+    color: black;
+}
+
+
+ul#lista li.concluido label{ 
+    text-decoration: line-through;
+    
+}
+
